@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression and Smoke Suite]">
+  <test thread-count="5" name="Upcoming Bikes Test(failed)">
+    <classes>
+      <class name="com.zigwheels.testupcomingbikes.NewBikesTest">
+        <methods>
+          <include name="endReport"/>
+          <include name="Test1"/>
+        </methods>
+      </class> <!-- com.zigwheels.testupcomingbikes.NewBikesTest -->
+    </classes>
+  </test> <!-- Upcoming Bikes Test(failed) -->
+</suite> <!-- Failed suite [Regression and Smoke Suite] -->
